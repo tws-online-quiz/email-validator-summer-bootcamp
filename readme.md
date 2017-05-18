@@ -1,38 +1,19 @@
-# 邮件地址验证
-## 需求描述
+## 邮件地址验证
 给定邮件地址和邮箱后缀列表，如果该邮件地址满足任一后缀，则为合法，否则为非法地址。
 例如：给定邮件地址 `tom@gmail.com`，后缀列表：`['gmail', 'qq']`。
 
-## 作业要求
-1. 根据```spec/main-spec.js```中的测试用例，在```src/main.js```文件中编写实现代码并确保测试通过；
-2. 请在保证代码可读性的前提下，尽可能用最少的代码行数完成作业。
-
-## 作业提示
-1. 使用 `console.log` 输出调试
-2. split 方法可以切割字符串
-
-## 如何使用
-
-首先初次下载完需要安装依赖：
-```
-  npm install
-```
-
-然后才能执行测试：
-
-```
-  npm test
-```
-
-可以通过测试来检测本地代码是否完成作业要求，测试通过即可提交到github，把git库地址填到答题页面，并提交表单。
+提示：
+ split 方法可以切割字符串
 
 ## 参考资料
-1. [npm 下载安装](https://github.com/npm/npm)
-2. [node 下载安装](https://github.com/creationix/nvm)
-3. [jasmine用法](http://jasmine.github.io/2.4/introduction.html)
-4. [git简易指南](http://gitref.org/zh/index.html)
-5. [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
-6. [String Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+
+1. [Javascript基础](http://codefordream.com/courses/js_basic/sections)
+2. [Javascript初级训练营](http://codefordream.com/courses/js_learning_camps/sections)
+3. [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
+4. [npm 下载安装](https://github.com/npm/npm)
+5. [node 下载安装](https://github.com/creationix/nvm)
+6. [jasmine用法](http://jasmine.github.io/2.4/introduction.html)
+7. [Git 参考手册](http://gitref.org/zh/index.html)
 
 
 ## 答题流程
